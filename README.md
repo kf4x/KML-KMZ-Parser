@@ -46,15 +46,15 @@ eg.
 
 **Parsed into**
 
-  "description": {
-    "shape": "Point",
-    "jpg_url": "http://farm8.staticflickr.com/7066/6944724811_92623fe4da_m.jpg",
-    "image_url": "http://www.flickr.com/photos/abqpublicart/6944724811/in/photostream/",
-    "title": "Fence II",
-    "year": "2011",
-    "art_code": "662.06",
-    "artist": "Evan Dent",
-    "type": "etchings",
-    "address": "400 Marquette NW",
-    "location": "City/County Government Building"
-  }
+      "description": {
+        "shape": "Point",
+        "jpg_url": "http://farm8.staticflickr.com/7066/6944724811_92623fe4da_m.jpg",
+        "image_url": "http://www.flickr.com/photos/abqpublicart/6944724811/in/photostream/",
+        "title": "Fence II",
+        "year": "2011",
+        "art_code": "662.06",
+        "artist": "Evan Dent",
+        "type": "etchings",
+        "address": "400 Marquette NW",
+        "location": "City/County Government Building"
+      }
