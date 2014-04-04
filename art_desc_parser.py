@@ -1,4 +1,4 @@
-__author__ = 'javierAle'
+__author__ = 'Javier Chavez'
 
 from bs4 import BeautifulSoup
 from JSON_model import *
