@@ -74,5 +74,18 @@ eg.
         "location": "City/County Government Building"
       }
 
+Works with almost every piece of open data abq offers. 
+
+**Here a few I have tried.**
+
+* [publicart](http://data.cabq.gov/community/art/publicart/)  
+* [neighborhoods](http://data.cabq.gov/community/neighborhoods/)  
+* [openspace](http://data.cabq.gov/community/openspace/)  
+* [parks](http://data.cabq.gov/community/parksandrec/parks/)  
+* [policebeats](http://data.cabq.gov/publicsafety/policebeats/)  
+* [routesandstops](http://data.cabq.gov/transit/routesandstops/)  
+* [realtime tansit](http://data.cabq.gov/transit/realtime/)  
+* [citylimits](http://data.cabq.gov/government/citylimits/)
+
 
 ###Thanks [Javier C](http://twitter.com/_javierc)
