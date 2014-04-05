@@ -85,7 +85,7 @@ output to file
 
 Works with almost every piece of open data abq offers. 
 
-**Here a few I have tried.**
+**Here's a few I've tried.**
 
 * [publicart](http://data.cabq.gov/community/art/publicart/)  
 * [neighborhoods](http://data.cabq.gov/community/neighborhoods/)  
