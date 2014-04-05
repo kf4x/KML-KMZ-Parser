@@ -46,10 +46,14 @@ class Abq_Data_Parse():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Turn KML/KMZ files to JSON. You can ">>" to output to file')
     parser.add_argument('--l', help='path/or/url/to json | kml | kmz', required=True, dest='loc')
-    parser.add_argument('--kmz', help='Flag for KMZ', dest='is_kmz', default=False, action='store_true')
-    parser.add_argument('--i', help='spaces to indent json', required=False, dest='indent_l', default=0, type=int)
+    parser.add_argument('--kmz', help='Flag for KMZ (KML assumed if not given)', dest='is_kmz', default=False, action='store_true')
+    parser.add_argument('--d', help='Flag to parse description (not parsed if not given)', dest='parse_desc', default=False, action='store_true')
+    parser.add_argument('--i', help='spaces to indent json OPTIONAL', required=False, dest='indent_l', default=0, type=int)
     args = parser.parse_args()
 
     data = Abq_Data_Parse(location=args.loc, kmz=args.is_kmz)
 
-    print data.get_json_parsed_desc(indent=args.indent_l)
+    if args.parse_desc:
+        print data.get_json_parsed_desc(indent=args.indent_l)
+    else:
+        print data.get_json_dumps(indent=args.indent_l)

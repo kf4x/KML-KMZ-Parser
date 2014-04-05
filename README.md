@@ -28,9 +28,18 @@ output to file
 
 ##Misc
 
-**File:** *art_desc_parser.py* is used to parse the html of the ABQ art found in the description.
+**File:** *Abq_Data_Parse.py* is used to parse the html of the ABQ art found in the description.
 
-eg.
+**As a util:**
+		
+	python Abq_Data_Parse.py --l http://data.cabq.gov/transit/routesandstops/transitstops.kmz --kmz --i 4
+		
+*or*
+
+	python Abq_Data_Parse.py --l http://data.cabq.gov/transit/realtime/introute/introute66.kml --i 4
+
+
+###This is cool
 
 
               <tr>
@@ -59,7 +68,7 @@ eg.
       </html>]]></description>
 
 
-**Parsed into**
+**Gets parsed into**
 
       "description": {
         "shape": "Point",
