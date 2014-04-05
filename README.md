@@ -5,20 +5,24 @@
 
     from JSON_model import *
 
-**How to use**
+##How to use
 
-As a module:
+**As a module:**
 
     data = Data(location='http://data.cabq.gov/community/art/publicart/PublicArt.kmz', kmz=True)
 
-As a util:
+**As a util:**
 output to file
 
     python JSON_model.py --l http://data.cabq.gov/community/openspace/OpenSpaceFoothillsTrails.kmz --kmz --i 4 >> d.json
 
-output to std
+**output to std**
 
     python JSON_model.py --l http://data.cabq.gov/community/openspace/OpenSpaceFoothillsTrails.kmz --kmz
+
+**use kml feature**
+
+    python JSON_model.py --l http://data.cabq.gov/transit/realtime/introute/introute66.kml --i 4
 
 ---
 
