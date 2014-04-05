@@ -1,5 +1,5 @@
 #Parse
-NOTE: this is only for KML KMZ with points only!
+**NOTE:** This is only for KML KMZ with multigeometry, points, and polygons only!
 
 **First import**
 

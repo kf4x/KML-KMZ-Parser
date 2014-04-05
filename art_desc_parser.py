@@ -5,7 +5,7 @@ from JSON_model import *
 import re
 
 
-data = Data(location='http://data.cabq.gov/community/art/publicart/PublicArt.kmz', kmz=True)
+data = Data(location='http://data.cabq.gov/community/openspace/OpenSpaceFoothillsTrails.kmz', kmz=True)
 
 data = data.get_json()
 
