@@ -3,7 +3,7 @@ __author__ = 'Javier Chavez'
 from bs4 import BeautifulSoup
 from JSON_model import *
 import re
-
+import copy
 
 
 class Abq_Data_Parse():
@@ -18,7 +18,7 @@ class Abq_Data_Parse():
         return json.dumps(self.__parse_desc__(), indent=indent)
 
     def __parse_desc__(self):
-        import copy
+
         # not modifying the original json obj
         tmp_json = copy.deepcopy(self.__json__)
 
